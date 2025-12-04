@@ -1,0 +1,37 @@
+# OS files
+.DS_Store
+Thumbs.db
+*.swp
+
+# Editor files
+*.swo
+*~
+.vscode/
+.idea/
+*.sublime-*
+
+# Build artifacts (future)
+build/
+dist/
+*.o
+*.so
+*.dll
+
+# Private keys (if examples added)
+*.pem
+*.key
+private/
+secrets/
+
+# Logs
+*.log
+
+# Python (if tools added)
+__pycache__/
+*.py[cod]
+*.egg-info/
+venv/
+
+# Node (if tools added)
+node_modules/
+package-lock.json
